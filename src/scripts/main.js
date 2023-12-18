@@ -171,10 +171,6 @@ async function playAudio(status){
     audio.play()
 }
 
-async function toggleMute() {
-    var bgm = document.getElementById('bgm');
-    bgm.muted = !bgm.muted;
-}
 
 function main(){
     state.fieldCards.player.style.display = "none"
